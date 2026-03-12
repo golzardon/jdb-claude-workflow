@@ -19,7 +19,7 @@ Parse the input above. If critical details are missing (who is this for? what pr
 
 Write a structured document covering all sections below. Adapt depth and detail based on available information — emphasize architecture and technical stack for highly technical products; emphasize user stories and experience for user-facing products.
 
-Save the PRD to `.agents/plans/prd-YYYY-MM-DD-<short-slug>.md` using today's date.
+Save the PRD to `PRD.md` at the project root. If a `PRD.md` already exists, ask the user whether to overwrite it or save as `PRD-<short-slug>.md` instead.
 
 ---
 
