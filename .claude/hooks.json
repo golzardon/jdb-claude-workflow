@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'Reminder: if you edited rules files, run /maintain to sync other docs.'"
+          }
+        ]
+      }
+    ]
+  }
+}
