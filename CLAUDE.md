@@ -10,7 +10,7 @@ Rules can use `paths:` frontmatter to only load in specific directories.
 ## Commands
 
 See [`.claude/commands/`](.claude/commands/):
-- `/prime` — load context | `/plan` — create a plan | `/execute` — run a plan
+- `/prime` — load context | `/interview` — clarify requirements | `/plan` — create a plan | `/execute` — run a plan
 - `/review` — review changes | `/maintain` — sync docs | `/commit` — stage & commit
 - `/create-prd` — product requirements | `/debate` — explore tradeoffs
 - `/runbook-mvp` — MVP launch | `/runbook-feature` — feature delivery | `/runbook-incident` — incident response
@@ -23,6 +23,10 @@ See [`.claude/commands/`](.claude/commands/):
 See [`.claude/agents/`](.claude/agents/):
 - backend-architect, security-engineer, reality-checker
 - performance-benchmarker, devops-automator, growth-hacker
+- ux-architect, sprint-prioritizer, seo-specialist
+- content-creator, brand-guardian, orchestrator
+
+**Auto-use policy**: Proactively consult specialist agents whenever the task at hand aligns with their expertise. You do NOT need to be asked — if the work touches architecture, security, performance, UX, SEO, DevOps, etc., read the relevant agent file and adopt that specialist's perspective as part of your response. Use the orchestrator to coordinate when multiple specialists are relevant.
 
 ## Reference Docs
 
